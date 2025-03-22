@@ -13,8 +13,8 @@ namespace NetPay
 
             var projectDir = GetProjectDirectory();
 
-            ImportEntities(context, projectDir + @"Datasets/", projectDir + @"ImportResults/");
-            ExportEntities(context, projectDir + @"ExportResults/");
+            //ImportEntities(context, projectDir + @"Datasets/", projectDir + @"ImportResults/");
+            //ExportEntities(context, projectDir + @"ExportResults/");
 
             using(var transaction = context.Database.BeginTransaction())
             {
